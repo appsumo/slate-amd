@@ -1,7 +1,7 @@
 {
   "name": "slate-amd",
   "version": "1.0.0",
-  "description": "",
+  "description": "AMD/RequireJS Module for SlateJS",
   "main": "slate-lib.js",
   "dependencies": {
     "babel-cli": "^6.26.0",
