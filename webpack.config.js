@@ -1,9 +1,9 @@
 module.exports = {
-  entry: "./slate.js",
+  entry: "./slate-lib.js",
     output: {
-        library: 'slate-lib',
+        library: 'slate',
         libraryTarget: 'amd',
-        filename: 'slate-lib.js'
+        filename: 'slate.js'
     },
   resolve: {
     modules: [
