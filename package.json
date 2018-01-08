@@ -4,7 +4,6 @@
   "description": "AMD/RequireJS Module for SlateJS",
   "main": "slate-lib.js",
   "dependencies": {
-    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^6.4.1",
     "babel-preset-es2015": "^6.9.0",
@@ -13,12 +12,15 @@
     "immutable": "^3.8.2",
     "is-hotkey": "^0.1.1",
     "react-immutable-proptypes": "^2.1.0",
-    "slate": "^0.30.6",
+    "slate": "^0.32.0",
     "slate-markdown-serializer": "git+https://github.com/appsumo/slate-markdown-serializer.git",
-    "slate-react": "^0.10.11",
+    "slate-react": "^0.11.0",
     "webpack": "^3.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
   "scripts": {
     "build": "webpack"
   },
