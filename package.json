@@ -11,9 +11,12 @@
     "babel-preset-stage-0": "^6.24.1",
     "immutable": "^3.8.2",
     "is-hotkey": "^0.1.1",
+    "object-assign": "^4.1.1",
+    "react-dom": "^16.7.0",
     "react-immutable-proptypes": "^2.1.0",
     "slate": "^0.44.9",
     "slate-react": "^0.21.15",
+    "slate-html-serializer": "^0.7.33",
     "slate-markdown-serializer": "git+https://github.com/appsumo/slate-markdown-serializer.git",
     "slate-plain-serializer": "^0.6.33",
     "webpack": "^3.6.0"
